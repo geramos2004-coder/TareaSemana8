@@ -15,7 +15,7 @@
       <div class="form-group">
         <label for="categoria">Categoría:</label>
         <select id="categoria" v-model="categoria">
-          <option value="">No especificar</option>
+          <option value="">No es necesario especificar</option>
           <option value="Electrónica">Electrónica</option>
           <option value="Ropa">Ropa</option>
           <option value="Hogar">Hogar</option>
