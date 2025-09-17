@@ -1,0 +1,20 @@
+{
+  "name": "tareasemana8",
+  "version": "1.0.0",
+  "description": "Tarea de la Semana 8 de OnePage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisVillanueva23/TareaSemana8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisVillanueva23/TareaSemana8/issues"
+  },
+  "homepage": "https://github.com/ChrisVillanueva23/TareaSemana8#readme"
+}
