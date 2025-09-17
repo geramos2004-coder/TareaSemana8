@@ -16,7 +16,7 @@
   color: #f1f1f1;
   text-align: center;
   padding: 1.2rem 1rem;
-  border-radius: 12px 12px 0 0;
+  border-radius: 11px 12px 0 0;
   box-shadow: 0px -3px 12px rgba(0, 0, 0, 0.25);
   transition: all 0.4s ease;
   position: relative;
