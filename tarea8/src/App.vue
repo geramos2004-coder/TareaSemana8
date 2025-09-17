@@ -1,10 +1,29 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+
+  <Menu></Menu> 
+  <Formulario></Formulario>
+  <Footer></Footer> 
+  <!--<Ejemplo></Ejemplo>-->
+  
 </template>
+
+<script>
+import Menu from './components/menu.vue';
+import Formulario from './components/formulario.vue';
+import Footer from './components/footer.vue';
+//import Ejemplo from './components/ejemplo.vue';
+
+
+export default {
+  name: 'App',
+  components: {
+    Menu,
+    Formulario,
+    Footer
+    //Ejemplo
+  }
+}
+</script>
 
 <style>
 #app {
@@ -13,18 +32,6 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
+  margin-top: 5px;
 }
 </style>
